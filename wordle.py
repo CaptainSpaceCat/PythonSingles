@@ -1,3 +1,19 @@
+'''
+wordle.py
+author - Connor Settle
+
+example usage: python wordle.py bbbgb yybgb gbggg ggggg
+g - green square
+y - yellow square
+b - black square
+
+the program will output a string that can be pasted into Slack 
+to make a fancy visual of your performance in a game of wordle
+
+supports any word length and any number of guesses
+'''
+
+
 import sys
 
 def expand(s):
